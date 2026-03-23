@@ -14,6 +14,9 @@ pnpm dev
 bun dev
 
 git push fork main
+
+git pull fork main --rebase
+git push fork main
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

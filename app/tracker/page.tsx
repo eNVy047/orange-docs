@@ -51,15 +51,27 @@ export default function TrackerPage() {
   };
 
   const toggleTaskStatus = async (taskId: string, currentStatus: boolean) => {
+    // Optimistic update
+    if (data) {
+      const updatedTasks = data.tasks.map(t => t.id === taskId ? { ...t, completed: !currentStatus } : t);
+      const updatedBacklog = data.backlog.map(t => t.id === taskId ? { ...t, completed: !currentStatus } : t);
+      setData({ ...data, tasks: updatedTasks, backlog: updatedBacklog });
+    }
+
     try {
-      await fetch("/api/tracker", {
+      const res = await fetch("/api/tracker", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ taskId, completed: !currentStatus }),
       });
+      
+      if (!res.ok) throw new Error("Failed to update");
+      // Re-fetch to ensure sync with server (backlog might change etc.)
       fetchTasks();
     } catch (err) {
       console.error("Failed to update task", err);
+      // Revert on error
+      fetchTasks();
     }
   };
 
@@ -256,14 +268,14 @@ export default function TrackerPage() {
 
 function TaskItem({ task, onToggle, isBacklog = false }: { task: Task, onToggle: () => void, isBacklog?: boolean }) {
   return (
-    <div 
+    <button 
       onClick={onToggle}
-      className={`group flex items-center gap-4 p-5 rounded-2xl border transition-all cursor-pointer ${
+      className={`w-full text-left group flex items-center gap-4 p-5 rounded-2xl border transition-all active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-orange-400/50 ${
         task.completed 
-        ? "bg-white/[0.01] border-white/5 opacity-50" 
+        ? "bg-white/[0.01] border-white/5 opacity-50 cursor-default" 
         : isBacklog 
-          ? "bg-red-500/[0.02] border-red-500/10 hover:border-red-500/30"
-          : "bg-white/[0.03] border-white/5 hover:bg-white/[0.05] hover:border-orange-400/30"
+          ? "bg-red-500/[0.02] border-red-500/10 hover:border-red-500/30 cursor-pointer"
+          : "bg-white/[0.03] border-white/5 hover:bg-white/[0.05] hover:border-orange-400/30 cursor-pointer"
       }`}
     >
       <div className={`flex-shrink-0 transition-colors ${task.completed ? "text-orange-400" : "text-gray-600 group-hover:text-orange-400"}`}>
@@ -285,16 +297,16 @@ function TaskItem({ task, onToggle, isBacklog = false }: { task: Task, onToggle:
           {task.text}
         </p>
       </div>
-      <ChevronRight size={18} className="text-gray-800 group-hover:text-orange-400 transition-colors" />
-    </div>
+      <ChevronRight size={18} className="text-gray-800 group-hover:text-orange-400 transition-colors shrink-0" />
+    </button>
   );
 }
 
 function CategoryCard({ icon, title, count, onClick }: { icon: React.ReactNode, title: string, count: number, onClick: () => void }) {
   return (
-    <div 
+    <button 
       onClick={onClick}
-      className="flex items-center justify-between p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] hover:border-orange-400/30 transition-all group cursor-pointer active:scale-95"
+      className="w-full text-left flex items-center justify-between p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] hover:border-orange-400/30 transition-all group flex-shrink-0 active:scale-[0.98] outline-none"
     >
       <div className="flex items-center gap-3">
         <div className="text-gray-500 group-hover:text-orange-400 transition-colors">{icon}</div>
@@ -304,6 +316,6 @@ function CategoryCard({ icon, title, count, onClick }: { icon: React.ReactNode, 
         <span className="text-xs font-mono text-gray-600 font-bold group-hover:text-gray-400 transition-colors">{count} topics</span>
         <ChevronRight size={14} className="text-gray-800 group-hover:text-orange-400 transition-colors" />
       </div>
-    </div>
+    </button>
   );
 }
