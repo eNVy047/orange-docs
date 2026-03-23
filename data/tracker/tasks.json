@@ -1,0 +1,3921 @@
+[
+  {
+    "day": 1,
+    "date": "2026-03-23",
+    "tasks": [
+      {
+        "id": "day1-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day1-dsa",
+        "text": "DSA: Complexity Analysis (Time & Space)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day1-llm",
+        "text": "LLM/AI: Python Foundation (Math & Python)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day1-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-03-24",
+    "tasks": [
+      {
+        "id": "day2-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day2-dsa",
+        "text": "DSA: Complexity Analysis (Time & Space)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day2-llm",
+        "text": "LLM/AI: Python Foundation (Math & Python)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day2-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-03-25",
+    "tasks": [
+      {
+        "id": "day3-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day3-dsa",
+        "text": "DSA: Complexity Analysis (Time & Space)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day3-llm",
+        "text": "LLM/AI: Python Foundation (Math & Python)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day3-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "date": "2026-03-26",
+    "tasks": [
+      {
+        "id": "day4-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day4-dsa",
+        "text": "DSA: Arrays Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day4-llm",
+        "text": "LLM/AI: Python Foundation (Math & Python)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day4-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "date": "2026-03-27",
+    "tasks": [
+      {
+        "id": "day5-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day5-dsa",
+        "text": "DSA: Arrays Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day5-llm",
+        "text": "LLM/AI: Linear Algebra & Calculus",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day5-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-03-28",
+    "tasks": [
+      {
+        "id": "day6-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day6-dsa",
+        "text": "DSA: Arrays Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day6-llm",
+        "text": "LLM/AI: Linear Algebra & Calculus",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day6-apt",
+        "text": "Aptitude: Number System",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "2026-03-29",
+    "tasks": [
+      {
+        "id": "day7-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day7-dsa",
+        "text": "DSA: Prefix Sum & Kadane",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day7-llm",
+        "text": "LLM/AI: Linear Algebra & Calculus",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day7-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day7-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "date": "2026-03-30",
+    "tasks": [
+      {
+        "id": "day8-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day8-dsa",
+        "text": "DSA: Prefix Sum & Kadane",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day8-llm",
+        "text": "LLM/AI: Probability & Statistics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day8-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "date": "2026-03-31",
+    "tasks": [
+      {
+        "id": "day9-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day9-dsa",
+        "text": "DSA: Prefix Sum & Kadane",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day9-llm",
+        "text": "LLM/AI: Probability & Statistics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day9-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "date": "2026-04-01",
+    "tasks": [
+      {
+        "id": "day10-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day10-dsa",
+        "text": "DSA: Strings Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day10-llm",
+        "text": "LLM/AI: Probability & Statistics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day10-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "date": "2026-04-02",
+    "tasks": [
+      {
+        "id": "day11-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day11-dsa",
+        "text": "DSA: Strings Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day11-llm",
+        "text": "LLM/AI: Probability & Statistics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day11-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "date": "2026-04-03",
+    "tasks": [
+      {
+        "id": "day12-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day12-dsa",
+        "text": "DSA: Strings Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day12-llm",
+        "text": "LLM/AI: NumPy & Pandas for ML",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day12-apt",
+        "text": "Aptitude: Percentages & Profit Loss",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "date": "2026-04-04",
+    "tasks": [
+      {
+        "id": "day13-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day13-dsa",
+        "text": "DSA: Sliding Window Patterns",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day13-llm",
+        "text": "LLM/AI: NumPy & Pandas for ML",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day13-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "date": "2026-04-05",
+    "tasks": [
+      {
+        "id": "day14-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day14-dsa",
+        "text": "DSA: Sliding Window Patterns",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day14-llm",
+        "text": "LLM/AI: NumPy & Pandas for ML",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day14-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day14-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "date": "2026-04-06",
+    "tasks": [
+      {
+        "id": "day15-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day15-dsa",
+        "text": "DSA: Sliding Window Patterns",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day15-llm",
+        "text": "LLM/AI: Matplotlib & Seaborn",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day15-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "date": "2026-04-07",
+    "tasks": [
+      {
+        "id": "day16-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day16-dsa",
+        "text": "DSA: Two Pointers",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day16-llm",
+        "text": "LLM/AI: Matplotlib & Seaborn",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day16-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "date": "2026-04-08",
+    "tasks": [
+      {
+        "id": "day17-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day17-dsa",
+        "text": "DSA: Two Pointers",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day17-llm",
+        "text": "LLM/AI: Matplotlib & Seaborn",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day17-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "date": "2026-04-09",
+    "tasks": [
+      {
+        "id": "day18-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day18-dsa",
+        "text": "DSA: Two Pointers",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day18-llm",
+        "text": "LLM/AI: Matplotlib & Seaborn",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day18-apt",
+        "text": "Aptitude: Time, Speed & Distance",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "date": "2026-04-10",
+    "tasks": [
+      {
+        "id": "day19-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day19-dsa",
+        "text": "DSA: Recursion Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day19-llm",
+        "text": "LLM/AI: Regression & Classification",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day19-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "date": "2026-04-11",
+    "tasks": [
+      {
+        "id": "day20-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day20-dsa",
+        "text": "DSA: Recursion Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day20-llm",
+        "text": "LLM/AI: Regression & Classification",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day20-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "date": "2026-04-12",
+    "tasks": [
+      {
+        "id": "day21-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day21-dsa",
+        "text": "DSA: Recursion Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day21-llm",
+        "text": "LLM/AI: Regression & Classification",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day21-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day21-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "date": "2026-04-13",
+    "tasks": [
+      {
+        "id": "day22-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day22-dsa",
+        "text": "DSA: Backtracking (Subsets)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day22-llm",
+        "text": "LLM/AI: Bias-Variance & Feature Engineering",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day22-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "date": "2026-04-14",
+    "tasks": [
+      {
+        "id": "day23-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day23-dsa",
+        "text": "DSA: Backtracking (Subsets)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day23-llm",
+        "text": "LLM/AI: Bias-Variance & Feature Engineering",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day23-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "date": "2026-04-15",
+    "tasks": [
+      {
+        "id": "day24-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day24-dsa",
+        "text": "DSA: Backtracking (Subsets)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day24-llm",
+        "text": "LLM/AI: Bias-Variance & Feature Engineering",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day24-apt",
+        "text": "Aptitude: Time & Work",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "date": "2026-04-16",
+    "tasks": [
+      {
+        "id": "day25-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day25-dsa",
+        "text": "DSA: N-Queens / Sudoku",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day25-llm",
+        "text": "LLM/AI: Bias-Variance & Feature Engineering",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day25-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "date": "2026-04-17",
+    "tasks": [
+      {
+        "id": "day26-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day26-dsa",
+        "text": "DSA: N-Queens / Sudoku",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day26-llm",
+        "text": "LLM/AI: Neural Networks Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day26-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "date": "2026-04-18",
+    "tasks": [
+      {
+        "id": "day27-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day27-dsa",
+        "text": "DSA: N-Queens / Sudoku",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day27-llm",
+        "text": "LLM/AI: Neural Networks Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day27-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "date": "2026-04-19",
+    "tasks": [
+      {
+        "id": "day28-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day28-dsa",
+        "text": "DSA: Merge & Quick Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day28-llm",
+        "text": "LLM/AI: Neural Networks Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day28-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day28-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "date": "2026-04-20",
+    "tasks": [
+      {
+        "id": "day29-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day29-dsa",
+        "text": "DSA: Merge & Quick Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day29-llm",
+        "text": "LLM/AI: Backpropagation",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day29-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "date": "2026-04-21",
+    "tasks": [
+      {
+        "id": "day30-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day30-dsa",
+        "text": "DSA: Merge & Quick Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day30-llm",
+        "text": "LLM/AI: Backpropagation",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day30-apt",
+        "text": "Aptitude: Ratio & Proportion",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "date": "2026-04-22",
+    "tasks": [
+      {
+        "id": "day31-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day31-dsa",
+        "text": "DSA: Binary Search (Basics)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day31-llm",
+        "text": "LLM/AI: Backpropagation",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day31-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "date": "2026-04-23",
+    "tasks": [
+      {
+        "id": "day32-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day32-dsa",
+        "text": "DSA: Binary Search (Basics)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day32-llm",
+        "text": "LLM/AI: Backpropagation",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day32-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "date": "2026-04-24",
+    "tasks": [
+      {
+        "id": "day33-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day33-dsa",
+        "text": "DSA: Binary Search (Basics)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day33-llm",
+        "text": "LLM/AI: CNN & RNN",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day33-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "date": "2026-04-25",
+    "tasks": [
+      {
+        "id": "day34-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day34-dsa",
+        "text": "DSA: Binary Search (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day34-llm",
+        "text": "LLM/AI: CNN & RNN",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day34-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "date": "2026-04-26",
+    "tasks": [
+      {
+        "id": "day35-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day35-dsa",
+        "text": "DSA: Binary Search (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day35-llm",
+        "text": "LLM/AI: CNN & RNN",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day35-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day35-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "date": "2026-04-27",
+    "tasks": [
+      {
+        "id": "day36-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day36-dsa",
+        "text": "DSA: Binary Search (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day36-llm",
+        "text": "LLM/AI: LSTM & Sequence Models",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day36-apt",
+        "text": "Aptitude: Probability & Statistics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "date": "2026-04-28",
+    "tasks": [
+      {
+        "id": "day37-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day37-dsa",
+        "text": "DSA: Linked List Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day37-llm",
+        "text": "LLM/AI: LSTM & Sequence Models",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day37-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "date": "2026-04-29",
+    "tasks": [
+      {
+        "id": "day38-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day38-dsa",
+        "text": "DSA: Linked List Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day38-llm",
+        "text": "LLM/AI: LSTM & Sequence Models",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day38-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "date": "2026-04-30",
+    "tasks": [
+      {
+        "id": "day39-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day39-dsa",
+        "text": "DSA: Linked List Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day39-llm",
+        "text": "LLM/AI: LSTM & Sequence Models",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day39-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "date": "2026-05-01",
+    "tasks": [
+      {
+        "id": "day40-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day40-dsa",
+        "text": "DSA: Linked List (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day40-llm",
+        "text": "LLM/AI: NLP Basics (Tokenization)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day40-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "date": "2026-05-02",
+    "tasks": [
+      {
+        "id": "day41-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day41-dsa",
+        "text": "DSA: Linked List (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day41-llm",
+        "text": "LLM/AI: NLP Basics (Tokenization)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day41-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "date": "2026-05-03",
+    "tasks": [
+      {
+        "id": "day42-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day42-dsa",
+        "text": "DSA: Linked List (Advanced)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day42-llm",
+        "text": "LLM/AI: NLP Basics (Tokenization)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day42-apt",
+        "text": "Aptitude: Permutation & Combination",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day42-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "date": "2026-05-04",
+    "tasks": [
+      {
+        "id": "day43-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day43-dsa",
+        "text": "DSA: Stacks Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day43-llm",
+        "text": "LLM/AI: Embeddings & Word2Vec",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day43-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "date": "2026-05-05",
+    "tasks": [
+      {
+        "id": "day44-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day44-dsa",
+        "text": "DSA: Stacks Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day44-llm",
+        "text": "LLM/AI: Embeddings & Word2Vec",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day44-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "date": "2026-05-06",
+    "tasks": [
+      {
+        "id": "day45-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day45-dsa",
+        "text": "DSA: Stacks Basics",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day45-llm",
+        "text": "LLM/AI: Embeddings & Word2Vec",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day45-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "date": "2026-05-07",
+    "tasks": [
+      {
+        "id": "day46-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day46-dsa",
+        "text": "DSA: Queues & Deque",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day46-llm",
+        "text": "LLM/AI: Embeddings & Word2Vec",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day46-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "date": "2026-05-08",
+    "tasks": [
+      {
+        "id": "day47-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day47-dsa",
+        "text": "DSA: Queues & Deque",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day47-llm",
+        "text": "LLM/AI: Transformers Architecture",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day47-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "date": "2026-05-09",
+    "tasks": [
+      {
+        "id": "day48-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day48-dsa",
+        "text": "DSA: Queues & Deque",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day48-llm",
+        "text": "LLM/AI: Transformers Architecture",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day48-apt",
+        "text": "Aptitude: Geometry Basics",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "date": "2026-05-10",
+    "tasks": [
+      {
+        "id": "day49-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day49-dsa",
+        "text": "DSA: HashMaps & Sets",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day49-llm",
+        "text": "LLM/AI: Transformers Architecture",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day49-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day49-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "date": "2026-05-11",
+    "tasks": [
+      {
+        "id": "day50-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day50-dsa",
+        "text": "DSA: HashMaps & Sets",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day50-llm",
+        "text": "LLM/AI: Attention Mechanism",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day50-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "date": "2026-05-12",
+    "tasks": [
+      {
+        "id": "day51-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day51-dsa",
+        "text": "DSA: HashMaps & Sets",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day51-llm",
+        "text": "LLM/AI: Attention Mechanism",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day51-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "date": "2026-05-13",
+    "tasks": [
+      {
+        "id": "day52-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day52-dsa",
+        "text": "DSA: Greedy Algorithms",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day52-llm",
+        "text": "LLM/AI: Attention Mechanism",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day52-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "date": "2026-05-14",
+    "tasks": [
+      {
+        "id": "day53-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day53-dsa",
+        "text": "DSA: Greedy Algorithms",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day53-llm",
+        "text": "LLM/AI: Attention Mechanism",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day53-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "date": "2026-05-15",
+    "tasks": [
+      {
+        "id": "day54-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day54-dsa",
+        "text": "DSA: Greedy Algorithms",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day54-llm",
+        "text": "LLM/AI: Self-Attention Deep Dive",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day54-apt",
+        "text": "Aptitude: Averages",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "date": "2026-05-16",
+    "tasks": [
+      {
+        "id": "day55-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day55-dsa",
+        "text": "DSA: Tree Basics (Binary Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day55-llm",
+        "text": "LLM/AI: Self-Attention Deep Dive",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day55-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "date": "2026-05-17",
+    "tasks": [
+      {
+        "id": "day56-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day56-dsa",
+        "text": "DSA: Tree Basics (Binary Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day56-llm",
+        "text": "LLM/AI: Self-Attention Deep Dive",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day56-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day56-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "date": "2026-05-18",
+    "tasks": [
+      {
+        "id": "day57-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day57-dsa",
+        "text": "DSA: Tree Basics (Binary Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day57-llm",
+        "text": "LLM/AI: LLM Basics (BPE, Fine-tuning)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day57-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "date": "2026-05-19",
+    "tasks": [
+      {
+        "id": "day58-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day58-dsa",
+        "text": "DSA: DFS & BFS on Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day58-llm",
+        "text": "LLM/AI: LLM Basics (BPE, Fine-tuning)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day58-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "date": "2026-05-20",
+    "tasks": [
+      {
+        "id": "day59-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day59-dsa",
+        "text": "DSA: DFS & BFS on Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day59-llm",
+        "text": "LLM/AI: LLM Basics (BPE, Fine-tuning)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day59-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "date": "2026-05-21",
+    "tasks": [
+      {
+        "id": "day60-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day60-dsa",
+        "text": "DSA: DFS & BFS on Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day60-llm",
+        "text": "LLM/AI: LLM Basics (BPE, Fine-tuning)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day60-apt",
+        "text": "Aptitude: Seating Arrangement & Puzzles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "date": "2026-05-22",
+    "tasks": [
+      {
+        "id": "day61-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day61-dsa",
+        "text": "DSA: LCA & Tree Diameter",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day61-llm",
+        "text": "LLM/AI: Pretraining vs Fine-tuning",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day61-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "date": "2026-05-23",
+    "tasks": [
+      {
+        "id": "day62-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day62-dsa",
+        "text": "DSA: LCA & Tree Diameter",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day62-llm",
+        "text": "LLM/AI: Pretraining vs Fine-tuning",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day62-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "date": "2026-05-24",
+    "tasks": [
+      {
+        "id": "day63-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day63-dsa",
+        "text": "DSA: LCA & Tree Diameter",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day63-llm",
+        "text": "LLM/AI: Pretraining vs Fine-tuning",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day63-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day63-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "date": "2026-05-25",
+    "tasks": [
+      {
+        "id": "day64-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day64-dsa",
+        "text": "DSA: Binary Search Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day64-llm",
+        "text": "LLM/AI: Andrej Karpathy - Let's build GPT",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day64-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "date": "2026-05-26",
+    "tasks": [
+      {
+        "id": "day65-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day65-dsa",
+        "text": "DSA: Binary Search Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day65-llm",
+        "text": "LLM/AI: Andrej Karpathy - Let's build GPT",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day65-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "date": "2026-05-27",
+    "tasks": [
+      {
+        "id": "day66-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day66-dsa",
+        "text": "DSA: Binary Search Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day66-llm",
+        "text": "LLM/AI: Andrej Karpathy - Let's build GPT",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day66-apt",
+        "text": "Aptitude: Data Interpretation",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "date": "2026-05-28",
+    "tasks": [
+      {
+        "id": "day67-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day67-dsa",
+        "text": "DSA: Heaps & Priority Queues",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day67-llm",
+        "text": "LLM/AI: Andrej Karpathy - Let's build GPT",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day67-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "date": "2026-05-29",
+    "tasks": [
+      {
+        "id": "day68-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day68-dsa",
+        "text": "DSA: Heaps & Priority Queues",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day68-llm",
+        "text": "LLM/AI: Training Loop & Loss Functions",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day68-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "date": "2026-05-30",
+    "tasks": [
+      {
+        "id": "day69-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day69-dsa",
+        "text": "DSA: Heaps & Priority Queues",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day69-llm",
+        "text": "LLM/AI: Training Loop & Loss Functions",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day69-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "date": "2026-05-31",
+    "tasks": [
+      {
+        "id": "day70-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day70-dsa",
+        "text": "DSA: Tries (Prefix Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day70-llm",
+        "text": "LLM/AI: Training Loop & Loss Functions",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day70-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day70-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "date": "2026-06-01",
+    "tasks": [
+      {
+        "id": "day71-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day71-dsa",
+        "text": "DSA: Tries (Prefix Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day71-llm",
+        "text": "LLM/AI: LLM Pipeline (Data Collection)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day71-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "date": "2026-06-02",
+    "tasks": [
+      {
+        "id": "day72-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day72-dsa",
+        "text": "DSA: Tries (Prefix Trees)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day72-llm",
+        "text": "LLM/AI: LLM Pipeline (Data Collection)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day72-apt",
+        "text": "Aptitude: Number Series",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "date": "2026-06-03",
+    "tasks": [
+      {
+        "id": "day73-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day73-dsa",
+        "text": "DSA: Graphs Basics (BFS/DFS)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day73-llm",
+        "text": "LLM/AI: LLM Pipeline (Data Collection)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day73-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "date": "2026-06-04",
+    "tasks": [
+      {
+        "id": "day74-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day74-dsa",
+        "text": "DSA: Graphs Basics (BFS/DFS)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day74-llm",
+        "text": "LLM/AI: LLM Pipeline (Data Collection)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day74-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "date": "2026-06-05",
+    "tasks": [
+      {
+        "id": "day75-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day75-dsa",
+        "text": "DSA: Graphs Basics (BFS/DFS)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day75-llm",
+        "text": "LLM/AI: Fine-tuning Techniques (LoRA, PEFT)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day75-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 76,
+    "date": "2026-06-06",
+    "tasks": [
+      {
+        "id": "day76-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day76-dsa",
+        "text": "DSA: Topological Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day76-llm",
+        "text": "LLM/AI: Fine-tuning Techniques (LoRA, PEFT)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day76-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "date": "2026-06-07",
+    "tasks": [
+      {
+        "id": "day77-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day77-dsa",
+        "text": "DSA: Topological Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day77-llm",
+        "text": "LLM/AI: Fine-tuning Techniques (LoRA, PEFT)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day77-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day77-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "date": "2026-06-08",
+    "tasks": [
+      {
+        "id": "day78-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day78-dsa",
+        "text": "DSA: Topological Sort",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day78-llm",
+        "text": "LLM/AI: RLHF Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day78-apt",
+        "text": "Aptitude: Coding-Decoding",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "date": "2026-06-09",
+    "tasks": [
+      {
+        "id": "day79-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day79-dsa",
+        "text": "DSA: Shortest Path (Dijkstra)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day79-llm",
+        "text": "LLM/AI: RLHF Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day79-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "date": "2026-06-10",
+    "tasks": [
+      {
+        "id": "day80-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day80-dsa",
+        "text": "DSA: Shortest Path (Dijkstra)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day80-llm",
+        "text": "LLM/AI: RLHF Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day80-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "date": "2026-06-11",
+    "tasks": [
+      {
+        "id": "day81-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day81-dsa",
+        "text": "DSA: Shortest Path (Dijkstra)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day81-llm",
+        "text": "LLM/AI: RLHF Basics",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day81-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "date": "2026-06-12",
+    "tasks": [
+      {
+        "id": "day82-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day82-dsa",
+        "text": "DSA: Union Find",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day82-llm",
+        "text": "LLM/AI: Vector Databases (FAISS, Chroma)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day82-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "date": "2026-06-13",
+    "tasks": [
+      {
+        "id": "day83-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day83-dsa",
+        "text": "DSA: Union Find",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day83-llm",
+        "text": "LLM/AI: Vector Databases (FAISS, Chroma)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day83-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "date": "2026-06-14",
+    "tasks": [
+      {
+        "id": "day84-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day84-dsa",
+        "text": "DSA: Union Find",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day84-llm",
+        "text": "LLM/AI: Vector Databases (FAISS, Chroma)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day84-apt",
+        "text": "Aptitude: Blood Relations",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day84-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "date": "2026-06-15",
+    "tasks": [
+      {
+        "id": "day85-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day85-dsa",
+        "text": "DSA: Dynamic Programming (1D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day85-llm",
+        "text": "LLM/AI: RAG (Retrieval Augmented Generation)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day85-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "date": "2026-06-16",
+    "tasks": [
+      {
+        "id": "day86-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day86-dsa",
+        "text": "DSA: Dynamic Programming (1D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day86-llm",
+        "text": "LLM/AI: RAG (Retrieval Augmented Generation)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day86-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "date": "2026-06-17",
+    "tasks": [
+      {
+        "id": "day87-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day87-dsa",
+        "text": "DSA: Dynamic Programming (1D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day87-llm",
+        "text": "LLM/AI: RAG (Retrieval Augmented Generation)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day87-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "date": "2026-06-18",
+    "tasks": [
+      {
+        "id": "day88-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day88-dsa",
+        "text": "DSA: Dynamic Programming (2D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day88-llm",
+        "text": "LLM/AI: RAG (Retrieval Augmented Generation)",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day88-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "date": "2026-06-19",
+    "tasks": [
+      {
+        "id": "day89-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day89-dsa",
+        "text": "DSA: Dynamic Programming (2D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day89-llm",
+        "text": "LLM/AI: Context Injection in RAG",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day89-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "date": "2026-06-20",
+    "tasks": [
+      {
+        "id": "day90-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day90-dsa",
+        "text": "DSA: Dynamic Programming (2D)",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day90-llm",
+        "text": "LLM/AI: Context Injection in RAG",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day90-apt",
+        "text": "Aptitude: Reading Comprehension",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "date": "2026-06-21",
+    "tasks": [
+      {
+        "id": "day91-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day91-dsa",
+        "text": "DSA: Bit Manipulation",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day91-llm",
+        "text": "LLM/AI: Context Injection in RAG",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day91-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day91-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "date": "2026-06-22",
+    "tasks": [
+      {
+        "id": "day92-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day92-dsa",
+        "text": "DSA: Bit Manipulation",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day92-llm",
+        "text": "LLM/AI: FastAPI & Model Serving",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day92-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "date": "2026-06-23",
+    "tasks": [
+      {
+        "id": "day93-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day93-dsa",
+        "text": "DSA: Bit Manipulation",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day93-llm",
+        "text": "LLM/AI: FastAPI & Model Serving",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day93-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "date": "2026-06-24",
+    "tasks": [
+      {
+        "id": "day94-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day94-dsa",
+        "text": "DSA: Segment Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day94-llm",
+        "text": "LLM/AI: FastAPI & Model Serving",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day94-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "date": "2026-06-25",
+    "tasks": [
+      {
+        "id": "day95-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day95-dsa",
+        "text": "DSA: Segment Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day95-llm",
+        "text": "LLM/AI: FastAPI & Model Serving",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day95-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "date": "2026-06-26",
+    "tasks": [
+      {
+        "id": "day96-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day96-dsa",
+        "text": "DSA: Segment Trees",
+        "category": "DSA",
+        "completed": false,
+        "time": "6:00 PM - 8:00 PM"
+      },
+      {
+        "id": "day96-llm",
+        "text": "LLM/AI: Deployment with Docker",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day96-apt",
+        "text": "Aptitude: Grammar & Fill in the Blanks",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "date": "2026-06-27",
+    "tasks": [
+      {
+        "id": "day97-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day97-llm",
+        "text": "LLM/AI: Deployment with Docker",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day97-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "date": "2026-06-28",
+    "tasks": [
+      {
+        "id": "day98-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day98-llm",
+        "text": "LLM/AI: Deployment with Docker",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day98-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day98-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "date": "2026-06-29",
+    "tasks": [
+      {
+        "id": "day99-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day99-llm",
+        "text": "LLM/AI: Project: Mini GPT from scratch",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day99-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "date": "2026-06-30",
+    "tasks": [
+      {
+        "id": "day100-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day100-llm",
+        "text": "LLM/AI: Project: Mini GPT from scratch",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day100-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 101,
+    "date": "2026-07-01",
+    "tasks": [
+      {
+        "id": "day101-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day101-llm",
+        "text": "LLM/AI: Project: Mini GPT from scratch",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day101-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "date": "2026-07-02",
+    "tasks": [
+      {
+        "id": "day102-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day102-llm",
+        "text": "LLM/AI: Project: Mini GPT from scratch",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day102-apt",
+        "text": "Aptitude: Para Jumbles",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "date": "2026-07-03",
+    "tasks": [
+      {
+        "id": "day103-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day103-llm",
+        "text": "LLM/AI: Project: Chatbot with memory",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day103-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "date": "2026-07-04",
+    "tasks": [
+      {
+        "id": "day104-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day104-llm",
+        "text": "LLM/AI: Project: Chatbot with memory",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day104-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "date": "2026-07-05",
+    "tasks": [
+      {
+        "id": "day105-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day105-llm",
+        "text": "LLM/AI: Project: Chatbot with memory",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day105-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      },
+      {
+        "id": "day105-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "date": "2026-07-06",
+    "tasks": [
+      {
+        "id": "day106-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day106-llm",
+        "text": "LLM/AI: Project: RAG System",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day106-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "date": "2026-07-07",
+    "tasks": [
+      {
+        "id": "day107-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day107-llm",
+        "text": "LLM/AI: Project: RAG System",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day107-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "date": "2026-07-08",
+    "tasks": [
+      {
+        "id": "day108-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day108-llm",
+        "text": "LLM/AI: Project: RAG System",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day108-apt",
+        "text": "Aptitude: Vocabulary",
+        "category": "Aptitude",
+        "completed": false,
+        "time": "10:00 PM - 10:45 PM"
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "date": "2026-07-09",
+    "tasks": [
+      {
+        "id": "day109-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day109-llm",
+        "text": "LLM/AI: Project: RAG System",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "date": "2026-07-10",
+    "tasks": [
+      {
+        "id": "day110-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day110-llm",
+        "text": "LLM/AI: Project: Document Q&A system",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "date": "2026-07-11",
+    "tasks": [
+      {
+        "id": "day111-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day111-llm",
+        "text": "LLM/AI: Project: Document Q&A system",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "date": "2026-07-12",
+    "tasks": [
+      {
+        "id": "day112-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day112-llm",
+        "text": "LLM/AI: Project: Document Q&A system",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      },
+      {
+        "id": "day112-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "date": "2026-07-13",
+    "tasks": [
+      {
+        "id": "day113-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day113-llm",
+        "text": "LLM/AI: Project: Fine-tuned LLM",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "date": "2026-07-14",
+    "tasks": [
+      {
+        "id": "day114-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day114-llm",
+        "text": "LLM/AI: Project: Fine-tuned LLM",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "date": "2026-07-15",
+    "tasks": [
+      {
+        "id": "day115-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day115-llm",
+        "text": "LLM/AI: Project: Fine-tuned LLM",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "date": "2026-07-16",
+    "tasks": [
+      {
+        "id": "day116-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day116-llm",
+        "text": "LLM/AI: Project: Fine-tuned LLM",
+        "category": "LLM",
+        "completed": false,
+        "time": "8:00 PM - 10:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "date": "2026-07-17",
+    "tasks": [
+      {
+        "id": "day117-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "date": "2026-07-18",
+    "tasks": [
+      {
+        "id": "day118-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "date": "2026-07-19",
+    "tasks": [
+      {
+        "id": "day119-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      },
+      {
+        "id": "day119-rev",
+        "text": "Weekly Revision & Mock Test",
+        "category": "Misc",
+        "completed": false,
+        "time": "10:45 PM - 11:00 PM"
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "date": "2026-07-20",
+    "tasks": [
+      {
+        "id": "day120-college",
+        "text": "Complete College Assignments & Study",
+        "category": "College",
+        "completed": false,
+        "time": "5:00 PM - 6:00 PM"
+      }
+    ]
+  }
+]
