@@ -2,8 +2,10 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ChevronDown, ChevronRight, Menu, X, Rocket } from "lucide-react";
+import { useSidebar } from "@/lib/context/sidebar-context";
 
 const SIDEBAR_NAV = [
   {
@@ -29,8 +31,8 @@ const SIDEBAR_NAV = [
 
 export function DocsSidebar() {
   const pathname = usePathname();
-  const [openSections, setOpenSections] = useState<string[]>(["Chai aur Git"]);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [openSections, setOpenSections] = useState<string[]>(["Chai aur Git", "Git and Github"]);
+  const { isOpen, setIsOpen } = useSidebar();
 
   const toggleSection = (title: string) => {
     setOpenSections(prev =>
@@ -43,7 +45,7 @@ export function DocsSidebar() {
       {SIDEBAR_NAV.map((section) => {
         const isGettingStarted = section.title === "Getting Started";
         const isActiveSection = section.items.some(item => pathname === `/docs/${item.slug}`);
-        const isOpen = openSections.includes(section.title);
+        const isSectionOpen = openSections.includes(section.title);
 
         if (isGettingStarted) {
           const isActive = pathname === `/docs/${section.items[0].slug}`;
@@ -70,14 +72,14 @@ export function DocsSidebar() {
                 }`}
             >
               <div className="flex items-center gap-2">
-                <span className={`transform transition-transform duration-200 ${isOpen ? "rotate-90" : ""}`}>
+                <span className={`transform transition-transform duration-200 ${isSectionOpen ? "rotate-90" : ""}`}>
                   <span className="text-lg leading-none">›</span>
                 </span>
                 <span>{section.title}</span>
               </div>
             </button>
 
-            {isOpen && (
+            {isSectionOpen && (
               <div className="flex flex-col gap-1 pl-5">
                 {section.items.map((item) => {
                   const isActive = pathname === `/docs/${item.slug}`;
@@ -85,7 +87,7 @@ export function DocsSidebar() {
                     <Link
                       key={item.slug}
                       href={`/docs/${item.slug}`}
-                      onClick={() => setIsMobileMenuOpen(false)}
+                      onClick={() => setIsOpen(false)}
                       className={`block py-1 text-sm transition-colors ${isActive
                           ? "text-orange-400"
                           : "text-gray-400 hover:text-white"
@@ -105,28 +107,46 @@ export function DocsSidebar() {
 
   return (
     <>
-      {/* Mobile Toggle */}
-      <button
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        className="fixed bottom-6 right-6 z-[60] p-4 bg-orange-400 text-black rounded-full shadow-lg md:hidden hover:scale-110 transition-transform active:scale-95"
+      {/* Mobile Sidebar (Drawer) */}
+      <div 
+        className={`fixed inset-0 z-[100] md:hidden transition-opacity duration-300 ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
       >
-        {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
-
-      {/* Sidebar Overlay for Mobile */}
-      {isMobileMenuOpen && (
-        <div
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[55] md:hidden"
-          onClick={() => setIsMobileMenuOpen(false)}
+        {/* Overlay */}
+        <div 
+          className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+          onClick={() => setIsOpen(false)}
         />
-      )}
+        
+        {/* Mobile Content */}
+        <aside 
+          className={`absolute left-0 top-0 bottom-0 w-[280px] bg-[#0f0f0f] border-r border-white/5 flex flex-col transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
+        >
+          <div className="flex items-center justify-between px-6 pt-8 pb-4">
+            <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
+              <div className="w-8 h-8 relative">
+                <Image src="/logo.png" alt="Logo" width={32} height={32} className="object-contain" />
+              </div>
+              <span className="text-xl font-bold tracking-tight text-white uppercase">ORANGE</span>
+            </Link>
+            <button 
+              onClick={() => setIsOpen(false)}
+              className="p-2 -mr-2 text-gray-400 hover:text-white"
+            >
+              <X size={24} />
+            </button>
+          </div>
+          
+          <div className="flex-1 overflow-y-auto px-6">
+            <NavContent />
+          </div>
+        </aside>
+      </div>
 
-      {/* Sidebar Content */}
-      <aside className={`
-        fixed left-0 top-16 bottom-0 w-64 z-[56] transition-transform duration-300 border-r border-white/5 bg-[#0f0f0f] md:bg-transparent overflow-y-auto px-6
-        ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
-      `}>
-        <NavContent />
+      {/* Desktop Sidebar */}
+      <aside className="hidden md:block w-64 shrink-0">
+        <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto custom-scrollbar">
+          <NavContent />
+        </div>
       </aside>
     </>
   );

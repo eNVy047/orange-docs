@@ -13,12 +13,8 @@ export default function DocsLayout({
       
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-10">
-          {/* Sidebar */}
-          <div className="w-64 shrink-0 hidden md:block">
-            <div className="sticky top-24 h-[calc(100vh-6rem)] overflow-y-auto">
-              <DocsSidebar />
-            </div>
-          </div>
+          {/* Sidebar (Desktop) / Mobile Drawer (managed inside component) */}
+          <DocsSidebar />
 
           {/* Main Content Area */}
           <main className="flex-1 min-w-0 py-24 md:py-32">

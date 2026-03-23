@@ -3,13 +3,18 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Moon, Sun, Github, Youtube, Instagram, Linkedin, Twitter, Rocket } from "lucide-react";
+import { Moon, Sun, Github, Youtube, Instagram, Linkedin, Twitter, Rocket, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
+import { useSidebar } from "@/lib/context/sidebar-context";
 
 export function DocsNavbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const { isOpen, toggle } = useSidebar();
+  const pathname = usePathname();
+  const isDocsPage = pathname.startsWith("/docs");
 
   useEffect(() => {
     setMounted(true);
@@ -31,6 +36,16 @@ export function DocsNavbar() {
     >
       <div className="max-w-[1400px] mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
+          {isDocsPage && (
+            <button
+               onClick={toggle}
+               className="p-2 -ml-2 rounded-lg hover:bg-white/5 transition-colors md:hidden text-gray-400 hover:text-white"
+               aria-label="Toggle Sidebar"
+            >
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          )}
+          
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 relative transform transition-transform group-hover:scale-110">
               <Image src="/logo.png" alt="Logo" width={32} height={32} className="object-contain" />
