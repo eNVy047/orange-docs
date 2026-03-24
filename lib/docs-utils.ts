@@ -10,15 +10,15 @@ export interface DocPage {
 }
 
 export const DOC_ORDER = [
-  "getting-started",
-  "welcome",
-  "git-and-github",
-  "terminology",
-  "behind-the-scenes",
-  "branches-in-git",
-  "diff-stash-tags",
-  "managing-history",
-  "collaborate-with-github",
+  "getting-started/index",
+  "git-and-github/welcome",
+  "git-and-github/basics",
+  "git-and-github/terminology",
+  "git-and-github/behind-the-scenes",
+  "git-and-github/branches-in-git",
+  "git-and-github/diff-stash-tags",
+  "git-and-github/managing-history",
+  "git-and-github/collaborate-with-github",
   "llm-basics/intro",
   "llm-basics/tokenization",
   "llm-basics/embeddings",
@@ -36,7 +36,8 @@ export function getDocBySlug(slug: string): DocPage | null {
   // Check for specialized data.md in subdirectories first
   const dataFiles = [
     path.join(process.cwd(), "app/docs/llm-basics/data.md"),
-    path.join(process.cwd(), "app/docs/data.md"),
+    path.join(process.cwd(), "app/docs/getting-started/data.md"),
+    path.join(process.cwd(), "app/docs/git-and-github/data.md"),
   ];
 
   for (const filePath of dataFiles) {

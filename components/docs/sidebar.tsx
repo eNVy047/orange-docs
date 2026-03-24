@@ -11,20 +11,20 @@ const SIDEBAR_NAV = [
   {
     title: "Getting Started",
     items: [
-      { title: "Getting Started", slug: "getting-started" },
+      { title: "Getting Started", slug: "getting-started/index" },
     ]
   },
   {
     title: "Git and Github",
     items: [
-      { title: "Welcome", slug: "welcome" },
-      { title: "Git and GitHub", slug: "git-and-github" },
-      { title: "Terminology", slug: "terminology" },
-      { title: "Behind the scenes", slug: "behind-the-scenes" },
-      { title: "Branches in Git", slug: "branches-in-git" },
-      { title: "Diff, Stash, Tags", slug: "diff-stash-tags" },
-      { title: "Managing History", slug: "managing-history" },
-      { title: "Collaborate with Github", slug: "collaborate-with-github" },
+      { title: "Welcome", slug: "git-and-github/welcome" },
+      { title: "Git and GitHub", slug: "git-and-github/basics" },
+      { title: "Terminology", slug: "git-and-github/terminology" },
+      { title: "Behind the scenes", slug: "git-and-github/behind-the-scenes" },
+      { title: "Branches in Git", slug: "git-and-github/branches-in-git" },
+      { title: "Diff, Stash, Tags", slug: "git-and-github/diff-stash-tags" },
+      { title: "Managing History", slug: "git-and-github/managing-history" },
+      { title: "Collaborate with Github", slug: "git-and-github/collaborate-with-github" },
     ]
   },
   {

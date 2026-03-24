@@ -2,25 +2,12 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { Youtube, Instagram, Linkedin, Github, Twitter, Moon, Rocket, ExternalLink, Heart, X, ShieldCheck, Lock } from "lucide-react";
+import { Youtube, Instagram, Linkedin, Github, Twitter, Moon, Rocket, ExternalLink, Heart } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
   const router = useRouter();
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
-
-  const handlePasswordSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (password === "7154") {
-      router.push("/tracker");
-    } else {
-      setError("Incorrect password. Access denied.");
-      setPassword("");
-    }
-  };
   return (
     <div className="min-h-screen bg-[#050505] text-white font-sans relative overflow-hidden">
       {/* Background grid */}
@@ -85,13 +72,6 @@ export default function Home() {
                 </button>
               </Link>
 
-              <button 
-                onClick={() => setIsModalOpen(true)}
-                className="flex items-center gap-2 text-gray-300 hover:text-white text-lg font-medium transition-colors group"
-              >
-                Daily Trackers
-                <ExternalLink size={18} className="opacity-70 group-hover:opacity-100 transition-opacity" />
-              </button>
             </div>
           </div>
 
@@ -151,63 +131,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Password Modal */}
-      {isModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6">
-          <div className="absolute inset-0 bg-black/80 backdrop-blur-xl" onClick={() => setIsModalOpen(false)} />
-          <div className="relative w-full max-w-md p-8 rounded-3xl bg-zinc-900 border border-white/10 shadow-2xl overflow-hidden group">
-            <div className="absolute top-0 right-0 p-4">
-              <button 
-                onClick={() => setIsModalOpen(false)}
-                className="text-gray-500 hover:text-white transition-colors"
-              >
-                <X size={24} />
-              </button>
-            </div>
-
-            <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-2xl bg-orange-400/10 flex items-center justify-center text-orange-400 mb-6">
-                <Lock size={32} />
-              </div>
-              <h2 className="text-2xl font-bold mb-2">Restricted Access</h2>
-              <p className="text-gray-400 text-sm mb-8">Enter your 4-digit security code to access the Daily Tracker missions.</p>
-
-              <form onSubmit={handlePasswordSubmit} className="w-full space-y-4">
-                <div className="relative">
-                  <input 
-                    type="password"
-                    maxLength={4}
-                    value={password}
-                    autoFocus
-                    onChange={(e) => {
-                      setPassword(e.target.value);
-                      setError("");
-                    }}
-                    placeholder="Enter 4-digit Pin"
-                    className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-center text-2xl font-black tracking-[0.5em] focus:outline-none focus:border-orange-400/50 transition-colors uppercase placeholder:text-gray-700 placeholder:text-sm placeholder:tracking-normal"
-                  />
-                  {error && (
-                    <p className="absolute -bottom-6 left-0 right-0 text-red-500 text-[10px] font-bold uppercase tracking-wider animate-bounce">
-                      {error}
-                    </p>
-                  )}
-                </div>
-
-                <button 
-                  type="submit"
-                  className="w-full bg-orange-400 hover:bg-orange-500 text-black font-bold py-4 rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2"
-                >
-                  <ShieldCheck size={18} />
-                  Authorize Access
-                </button>
-              </form>
-            </div>
-
-            {/* Subtle glow */}
-            <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-orange-400/20 blur-[60px] rounded-full pointer-events-none" />
-          </div>
-        </div>
-      )}
     </div>
   );
 }
