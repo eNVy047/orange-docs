@@ -26,18 +26,42 @@ const SIDEBAR_NAV = [
       { title: "Managing History", slug: "managing-history" },
       { title: "Collaborate with Github", slug: "collaborate-with-github" },
     ]
+  },
+  {
+    title: "LLM Basics",
+    items: [
+      { title: "Introduction", slug: "llm-basics/intro" },
+      { title: "Tokenization", slug: "llm-basics/tokenization" },
+      { title: "Embeddings", slug: "llm-basics/embeddings" },
+      { title: "Foundation Models", slug: "llm-basics/foundation-models" },
+      { title: "RAG Pipeline", slug: "llm-basics/rag" },
+      { title: "GPU & AI Evolution", slug: "llm-basics/gpu-and-ai-intro" },
+      { title: "LLM Crash Course", slug: "llm-basics/llm-crash-course" },
+      { title: "AI Agents", slug: "llm-basics/ai-agents" },
+      { title: "MCP Protocol", slug: "llm-basics/mcp" },
+      { title: "SQL & Security", slug: "llm-basics/sql-and-security" },
+      { title: "Future of AI", slug: "llm-basics/future-of-ai" },
+    ]
   }
 ];
 
 export function DocsSidebar() {
   const pathname = usePathname();
-  const [openSections, setOpenSections] = useState<string[]>(["Chai aur Git", "Git and Github"]);
+  const [openSection, setOpenSection] = useState<string | null>(null);
   const { isOpen, setIsOpen } = useSidebar();
 
-  const toggleSection = (title: string) => {
-    setOpenSections(prev =>
-      prev.includes(title) ? prev.filter(t => t !== title) : [...prev, title]
+  // Sync open section with pathname on mount and change
+  React.useEffect(() => {
+    const activeSection = SIDEBAR_NAV.find(section => 
+      section.items.some(item => pathname === `/docs/${item.slug}`)
     );
+    if (activeSection) {
+      setOpenSection(activeSection.title);
+    }
+  }, [pathname]);
+
+  const toggleSection = (title: string) => {
+    setOpenSection(prev => prev === title ? null : title);
   };
 
   const NavContent = () => (
@@ -45,7 +69,7 @@ export function DocsSidebar() {
       {SIDEBAR_NAV.map((section) => {
         const isGettingStarted = section.title === "Getting Started";
         const isActiveSection = section.items.some(item => pathname === `/docs/${item.slug}`);
-        const isSectionOpen = openSections.includes(section.title);
+        const isSectionOpen = openSection === section.title;
 
         if (isGettingStarted) {
           const isActive = pathname === `/docs/${section.items[0].slug}`;
@@ -68,7 +92,7 @@ export function DocsSidebar() {
           <div key={section.title} className="flex flex-col gap-1">
             <button
               onClick={() => toggleSection(section.title)}
-              className={`w-full flex items-center justify-between px-3 py-1.5 text-sm font-semibold transition-colors group ${isActiveSection ? "text-orange-400" : "text-gray-200 hover:text-white"
+              className={`w-full flex items-center justify-between px-3 py-1.5 text-sm font-semibold transition-colors group ${isActiveSection || isSectionOpen ? "text-orange-400" : "text-gray-200 hover:text-white"
                 }`}
             >
               <div className="flex items-center gap-2">
@@ -143,8 +167,8 @@ export function DocsSidebar() {
       </div>
 
       {/* Desktop Sidebar */}
-      <aside className="hidden md:block w-64 shrink-0">
-        <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto custom-scrollbar">
+      <aside className="hidden md:block w-64 shrink-0 border-r border-white/5 bg-[#0f0f0f]/50 backdrop-blur-sm">
+        <div className="sticky top-24 h-[calc(100vh-6rem)] overflow-y-auto custom-scrollbar px-6">
           <NavContent />
         </div>
       </aside>

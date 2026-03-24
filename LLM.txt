@@ -1,0 +1,54 @@
+1. How GPUs Work for Video Editing and Deep learning
+2. Foundation Models Explained | Generative AI
+3. LLM Crash Course - Chapter 1 | Getting Started
+4. LLM Crash Course - Chapter 2 | Embeddings and Parameters Explained
+5. LLM Crash Course - Chapter 3 | Prompt Engineering Patterns
+6. Vector Database: A Must-Know Guide
+7. RAG: The LLM game-changer & Langchain
+8. The Evolution of Gen AI with RNNs (2024)
+9. Transformer Architecture Explained  'Attention Is All You Need'
+10. 🚀  GitHub Models: The Future of AI Development | Game-Changing Update!
+11. Autonomous AI Agents,  Large Action Model and Microsoft Copilot
+12. 🤖 MCP Will Change How You Think About AI Integration
+13. One AI Tool to Rule Them All? ChatLLM Teams Review 💡
+14. I Built a SaaS App with GPT… And Got Hacked 🤯
+15. 🤖 Why MCP is a Game-Changer for AI
+16. How Hackers Bypass Login Using SQL Injection 💥
+17. SQL Joins Explained in 30 Seconds
+18. What is MCP in AI Assistants?
+19. Classic vs Blind SQL Injection Explained 🔐
+20. Why Joins Matter in Databases 💡
+21. AI Assistant vs AI Agent 🤖 | What's the Difference?
+22. Stop SQL Injections with Prepared Statements 🔒
+23. Why Venn Diagrams Mislead You About SQL Joins ❌
+24. MCP Client vs MCP Server Explained in AI Agents 🤖
+25. Blind SQL Injection Explained with Real Examples 🔍
+26. SQL Joins Explained in 60 Seconds 🔗
+27. [Private video]
+28. Classic SQL Injection in JavaScript 🚨💻
+29. I Tested DeepAgent: How AI Agents Use MCP to Think 🤖
+30. Agentic AI Explained So Anyone Can Get It!
+31. How LLMs Work & Why Prompt Engineering Matters
+32. I Built My Personal Finance App with One Prompt | MetaGPT X (MGX)
+33. What’s Best for Building AI Assistants? | REST vs WebSockets vs MCP
+34. Large Action Models Explained: AI That Acts, Not Just Talks!
+35. The Illusion of Thinking | Apple Just Exposed AI’s Fake Reasoning
+36. MCP: The “USB-C” for AI Systems | Connect GPT, Claude & Real-World Tools
+37. Amazon Q Developer CLI Demo | AI That Codes in Your Terminal
+38. The Future of APIs | Postman MCP Agent Generator
+39. The Security Problem with MCP | Identity, RBAC & Audit
+40. Why Context Beats Prompts in AI!
+41. Postman MCP Agent Generator
+42. I Built a Search Engine That Talks Back
+43. AI Browsers Are Stealing Your Data (Prompt Injection Explained)
+44. Why AI Coding Agents Keep Breaking on Your Laptop
+45. I Built a Game Without Writing Code (AI Agent Did Everything)
+46. Most Developers Don't Trust AI Code. Here's Why They Should Now
+47. How an AI Agent Debugged a Production Incident in 80 Seconds (For 60 Cents)
+48. MCP vs A2A | Google's Answer to Anthropic's Protocol
+49. How to Build a Scalable RAG System for AI Apps (Full Architecture)
+50. OpenClaw: The Most Dangerous AI Project on GitHub?
+51. The Unexpected AI Problem for Tailwind
+52. How Multiplayer Game Servers save millions (Tick Rate Explained)
+53. OpenClaw Was Dangerous… Until NVIDIA Stepped In?
+54. Stop Confusing LangChain, LangGraph & LangSmith (Full AI Agent Stack Breakdown)

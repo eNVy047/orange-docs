@@ -29,8 +29,8 @@ export function DocsNavbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-        ? "bg-black/80 backdrop-blur-md border-b border-white/10 py-3"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
+        ? "bg-black/40 backdrop-blur-xl border-b border-white/5 py-3 shadow-[0_2px_20px_-5px_rgba(0,0,0,0.3)]"
         : "bg-transparent py-5"
         }`}
     >
@@ -59,7 +59,7 @@ export function DocsNavbar() {
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="p-2 rounded-full hover:bg-white/5 transition-colors text-gray-400 hover:text-white"
           >
-            {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
           </button>
         </div>
       </div>

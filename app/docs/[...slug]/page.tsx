@@ -9,9 +9,10 @@ import { DocsTOC } from "@/components/docs/toc";
 export default async function DocSlugPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string[] }>;
 }) {
-  const { slug } = await params;
+  const { slug: slugArray } = await params;
+  const slug = slugArray.join("/");
   const doc = getDocBySlug(slug);
 
   if (!doc) {
@@ -53,9 +54,9 @@ export default async function DocSlugPage({
               );
             },
             p: ({ children }) => (
-              <p className="text-gray-300 leading-7 mb-4 text-base">
+              <div className="text-gray-300 leading-7 mb-4 text-base">
                 {children}
-              </p>
+              </div>
             ),
             ul: ({ children }) => (
               <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-300 text-base">
@@ -117,9 +118,29 @@ export default async function DocSlugPage({
               if (!src.startsWith("http") && !src.startsWith("/")) return null;
               return (
                 <div className="my-8 flex flex-col items-center">
-                  <img src={src} alt={alt} className="rounded-lg shadow-lg max-w-full" />
-                  {alt && <p className="mt-2 text-sm text-gray-500 text-center">{alt}</p>}
+                  <img src={src} alt={alt} className="rounded-lg shadow-lg max-w-[400px] w-full border border-white/10" />
+                  {alt && <p className="mt-2 text-sm text-gray-500 text-center italic">{alt}</p>}
                 </div>
+              );
+            },
+            a: ({ href, children }) => {
+              if (href?.startsWith("next:")) {
+                const target = href.replace("next:", "/docs/");
+                return (
+                  <div className="mt-12 flex justify-end">
+                    <Link 
+                      href={target}
+                      className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-orange-400 text-black font-bold hover:bg-orange-500 transition-all shadow-[0_4px_20px_-5px_rgba(251,146,60,0.4)] hover:shadow-[0_8px_25px_-5px_rgba(251,146,60,0.5)] transform hover:-translate-y-0.5 active:translate-y-0"
+                    >
+                      {children} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </div>
+                );
+              }
+              return (
+                <a href={href} className="text-orange-400 hover:text-orange-300 underline underline-offset-4 transition-colors">
+                  {children}
+                </a>
               );
             }
           }}
@@ -140,28 +161,28 @@ export default async function DocSlugPage({
       </footer>
 
       {/* Navigation Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
         {prev ? (
           <Link 
             href={`/docs/${prev.slug}`}
-            className="group flex flex-col items-start gap-2 p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-orange-400/[0.03] hover:border-orange-400/40 transition-all text-left"
+            className="group flex flex-col items-start gap-4 p-8 rounded-2xl border border-white/5 bg-[#ffffff]/[0.02] hover:bg-orange-400/[0.04] hover:border-orange-400/30 transition-all duration-300 text-left"
           >
-            <span className="flex items-center gap-1 text-gray-500 group-hover:text-orange-400 transition-colors text-xs font-bold uppercase tracking-widest">
-              <ArrowLeft size={16} /> Previous
+            <span className="flex items-center gap-2 text-orange-400 font-bold uppercase tracking-widest text-[10px]">
+              <ArrowLeft size={14} className="group-hover:-translate-x-1 transition-transform" /> Previous
             </span>
-            <span className="text-lg font-bold text-gray-300 group-hover:text-white transition-colors">{prev.title}</span>
+            <span className="text-xl font-bold text-gray-200 group-hover:text-white transition-colors">{prev.title}</span>
           </Link>
         ) : <div />}
         
         {next ? (
           <Link 
             href={`/docs/${next.slug}`}
-            className="group flex flex-col items-end gap-2 p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-orange-400/[0.03] hover:border-orange-400/40 transition-all text-right"
+            className="group flex flex-col items-end gap-4 p-8 rounded-2xl border border-white/5 bg-[#ffffff]/[0.02] hover:bg-orange-400/[0.04] hover:border-orange-400/30 transition-all duration-300 text-right"
           >
-            <span className="flex items-center gap-1 text-gray-500 group-hover:text-orange-400 transition-colors text-xs font-bold uppercase tracking-widest">
-              Next <ArrowRight size={16} />
+            <span className="flex items-center gap-2 text-gray-500 group-hover:text-orange-400 transition-colors font-bold uppercase tracking-widest text-[10px]">
+              Next <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
             </span>
-            <span className="text-lg font-bold text-gray-300 group-hover:text-white transition-colors">{next.title}</span>
+            <span className="text-xl font-bold text-gray-200 group-hover:text-white transition-colors">{next.title}</span>
           </Link>
         ) : <div />}
       </div>
