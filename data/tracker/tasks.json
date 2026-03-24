@@ -7,7 +7,7 @@
         "id": "day1-college",
         "text": "Complete College Assignments & Study",
         "category": "College",
-        "completed": false,
+        "completed": true,
         "time": "5:00 PM - 6:00 PM"
       },
       {
@@ -21,14 +21,14 @@
         "id": "day1-llm",
         "text": "LLM/AI: Python Foundation (Math & Python)",
         "category": "LLM",
-        "completed": false,
+        "completed": true,
         "time": "8:00 PM - 10:00 PM"
       },
       {
         "id": "day1-apt",
         "text": "Aptitude: Number System",
         "category": "Aptitude",
-        "completed": false,
+        "completed": true,
         "time": "10:00 PM - 10:45 PM"
       }
     ]
@@ -55,7 +55,7 @@
         "id": "day2-llm",
         "text": "LLM/AI: Python Foundation (Math & Python)",
         "category": "LLM",
-        "completed": false,
+        "completed": true,
         "time": "8:00 PM - 10:00 PM"
       },
       {
